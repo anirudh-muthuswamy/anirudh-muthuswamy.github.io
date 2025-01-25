@@ -50,6 +50,19 @@
   margin: 4px;
 }
 
+.google-scholar {
+  color: #4285f4; /* Google's blue color */
+}
+
+.google-scholar:hover {
+  background-color: #4285f4; /* Same blue color on hover */
+}
+
+.icon-btn:hover {
+  transform: scale(1.10);
+  color: #FFFFFF;
+}
+
 .github {
   color: black;
 }
@@ -141,6 +154,7 @@ body {
 
 a {
   color: #004d40;
+  text-transform: none;
 }
 
 /* main blockqoute */
@@ -328,7 +342,7 @@ h3 {
   color: white;
   font-weight: 200;
   left: 0;
-  position: absolute;
+  position: relative;
   top: 0;
 }
 
@@ -344,7 +358,6 @@ h3 {
   /* font-weight: 400; */
   line-height: 150%;
   /* padding: 0 0px; */
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 #intro.section .underline {
@@ -570,6 +583,11 @@ small {
   #experience .container {
     width: 860px;
   }
+
+  .greeting-h2 {
+    margin-top: 0px; 
+    padding-top:25px; 
+  }
 }
 
 @media (max-width: 1360px) {
@@ -578,19 +596,35 @@ small {
     line-height: 200%;
     margin-left: 20px;
   }
+
+  .greeting-h2 {
+    margin-top: 0px; 
+    padding-top:25px; 
+  }
 }
 
 @media (max-width: 1160px) {
   .card ul li {
     line-height: 150%;
   }
+
+  .greeting-h2 {
+    margin-top: 0px; 
+    padding-top:25px; 
+  }
 }
 
 @media (max-width: 992px) {
   main {
     padding-left: 0px;
-    padding-top: 64px;
+    /* padding-top: 64px; */
   }
+
+  .greeting-h2 {
+    margin-top: 40px;
+    padding-top: 30px;
+  }
+
   ul.side-nav a {
     line-height: 100%;
     padding: 0;
@@ -659,6 +693,12 @@ small {
     line-height: 200%;
     margin: 30px 0 0;
   }
+
+  .greeting-h2 {
+    padding-top: 30px !important; 
+    margin-top: 60px;
+  }
+
   #intro.section .container *:not(span) {
     padding: 0;
   }
