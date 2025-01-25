@@ -674,7 +674,6 @@ small {
     font-size: 14px;
   }
   h3, .container {
-    position: relative;
     top: 64px;
   }
   section#intro {
