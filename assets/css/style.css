@@ -128,6 +128,12 @@
   -webkit-border-radius: 5px;
 }
 
+@media (max-width: 600px) {
+  .contactme, .readme {
+    padding: 5px 10px !important;
+  }
+}
+
 .contactme:hover{
   color: #00796b;
   background-color: white;
